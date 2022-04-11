@@ -6,7 +6,7 @@
     name: Running Webserver Pod
     - shell:
           yum install git
-          git clone https://github.com/nginxinc/kubernetes-ingress.git
+          git clone https://github.com/ditissgithub/ingress_controller_setup.git
           cd kubernetes-ingress/
           cd deployments/
           kubectl apply -f common/ns-and-sa.yaml
